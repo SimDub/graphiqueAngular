@@ -1,6 +1,6 @@
 # AngularChartjsExample
 
-### Testes de differents graphiques Angular :
+### Teste de differents graphiques Angular :
 * type barre
 * type bulle
 * type donuts
