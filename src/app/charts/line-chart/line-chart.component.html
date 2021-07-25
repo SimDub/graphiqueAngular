@@ -1,0 +1,17 @@
+<div class="chartjs-block">
+  <h1>Ligne graphique <input type="submit" (click)="refreshData()" value="refresh"/></h1>
+
+  <canvas baseChart
+          height="300"
+          width="600"
+          [datasets]="lineChartData"
+          [labels]="lineChartLabels"
+          [options]="lineChartOptions"
+          [colors]="lineChartColors"
+          [legend]="lineChartLegend"
+          [chartType]="lineChartType"
+          [plugins]="lineChartPlugins">
+  </canvas>
+
+
+</div>
